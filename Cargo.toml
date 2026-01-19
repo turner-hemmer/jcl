@@ -28,7 +28,7 @@ glob = { version = "0.3", optional = true }
 notify = { version = "8.2", optional = true }
 
 # Terminal colors (used by error formatting)
-colored = "3.0"
+colored = "3.1"
 
 # Error handling
 anyhow = "1.0"
