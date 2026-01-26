@@ -49,10 +49,10 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 petgraph = "0.8"
 
 # Templating
-handlebars = "6.3"
+handlebars = "6.4"
 
 # UUID generation
-uuid = { version = "1.19", features = ["v4", "serde"], optional = true }
+uuid = { version = "1.20", features = ["v4", "serde"], optional = true }
 
 # Encoding/Hashing
 base64 = "0.22"
@@ -104,7 +104,7 @@ jni = { version = "0.21", optional = true }
 magnus = { version = "0.8", optional = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-uuid = { version = "1.6", features = ["v4", "serde", "js"], optional = true }
+uuid = { version = "1.20", features = ["v4", "serde", "js"], optional = true }
 
 [dev-dependencies]
 pretty_assertions = "1.4"
