@@ -98,7 +98,7 @@ pyo3 = { version = "0.27", features = ["extension-module"], optional = true }
 neon = { version = "1.0", default-features = false, features = ["napi-6"], optional = true }
 
 # Java bindings
-jni = { version = "0.21", optional = true }
+jni = { version = "0.22", optional = true }
 
 # Ruby bindings
 magnus = { version = "0.8", optional = true }
